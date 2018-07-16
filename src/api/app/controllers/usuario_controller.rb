@@ -1,5 +1,5 @@
 class UsuarioController < ApplicationController
-
+#Comentario de prueba
     before_action :set_usuario, only: [:show, :update, :destroy]
 
   # GET /todos
