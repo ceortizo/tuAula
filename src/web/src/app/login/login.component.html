@@ -1,3 +1,20 @@
-<p>
-  login works!
-</p>
+<mat-card class="center-content">
+  <mat-card-content>
+    <img mat-card-image src="assets\img\log.png" alt="">
+    <div class="example-container">
+        <mat-form-field>
+            <input matInput placeholder="Ingresa tu email">
+        </mat-form-field>    
+        <mat-form-field>
+          <input matInput type="password" placeholder="Ingresa tu contraseña">
+      </mat-form-field>    
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>Ingresar</button>
+    <button mat-button>
+        <a routerLink="/registro">Registro</a>
+      </button>
+    <button mat-button>Olvidé mi contraseña</button>
+  </mat-card-actions>
+</mat-card>
