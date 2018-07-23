@@ -9,6 +9,7 @@ import {Usuario} from '../models'
 export class RegistroComponent implements OnInit {
 
   usuario = new Usuario();
+  repeticionDePassword : string;
   selectedIndex : number;
 
   constructor() { }
