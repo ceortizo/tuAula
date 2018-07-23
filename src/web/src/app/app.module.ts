@@ -4,6 +4,7 @@ import {BrowserAnimationsModule, } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './/app-routing.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
+import { LandingComponent } from './landing/landing.component';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
@@ -51,7 +52,8 @@ import {
   declarations: [
     AppComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
