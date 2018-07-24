@@ -2,7 +2,7 @@ body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}
 
 h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}
 
-header.masthead{position:relative;background-color:#343a40;background:url('apple-blank-business-442574.jpg') no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:8rem;padding-bottom:8rem}
+header.masthead{position:relative;background-color:#343a40;background:url(../img/apple-blank-business-442574.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:8rem;padding-bottom:8rem}
 
 header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
@@ -30,7 +30,7 @@ header.masthead h1{font-size:2rem}@media (min-width:768px)
 
 .testimonials .testimonial-item img{max-width:12rem;box-shadow:0 5px 5px 0 #adb5bd}
 
-.call-to-action{ position:relative;background-color:#343a40;background:url('bibliotecaColor.jpg') no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:7rem;padding-bottom:7rem}
+.call-to-action{ position:relative;background-color:#343a40;background:url(../img/bibliotecaColor.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:7rem;padding-bottom:7rem}
 
 .call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
