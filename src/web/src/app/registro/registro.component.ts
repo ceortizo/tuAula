@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Usuario} from '../models'
+import {Usuario, Upz} from '../models'
+import {TuAulaService} from '../tu-aula.service'
 
 @Component({
   selector: 'app-registro',
@@ -11,11 +12,13 @@ export class RegistroComponent implements OnInit {
   usuario = new Usuario();
   repeticionDePassword : string;
   selectedIndex : number;
+  upzs : Array<Upz>;
 
-  constructor() { }
+  constructor(private tuAulaService : TuAulaService) { }
 
   ngOnInit() {
     this.selectedIndex = 0;
+    this.upzs = this.tuAulaService.getUpzs();
   }
 
   onNext(){
