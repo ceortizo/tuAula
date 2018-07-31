@@ -34,7 +34,7 @@ class CategoriaController < ApplicationController
   
     def categorium_params
       # whitelist params
-      params.permit(:nombre)
+      params.permit(:name)
     end
   
     def set_usuario
