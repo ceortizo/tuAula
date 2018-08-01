@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule, } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './/app-routing.module';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 
 import { LandingComponent } from './landing/landing.component';
 import { AppComponent } from './app.component';
@@ -60,7 +60,6 @@ import {
     FormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,
